@@ -128,3 +128,11 @@ object = [
   }],
   },
 ];
+
+// get first object
+console.log(object);
+// get inner object value
+console.log(object[0].work[0].company);
+// get inner sub level object value 
+console.log(object[0].education[0].courses[0]);
+// JSON handling is very useful for api 
